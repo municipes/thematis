@@ -1,0 +1,28 @@
+{
+    "name": "municipes/thematis",
+    "description": "Themātis è un modulo Drupal che gestisce il tipo di contenuto Sito tematico.",
+    "type": "drupal-module",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/municipes/thematis",
+    "authors": [
+        {
+            "name": "Maurizio Cavalletti",
+            "homepage":"https://www.drupal.org/u/maurizio_akabit",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/municipes/thematis/issues",
+        "source": "https://github.com/municipes/thematis"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/auto_entitylabel": "^3.0",
+        "drupal/core-recommended": "^10",
+        "drupal/field_group": "^3",
+        "drupal/focal_point": "^2.0",
+        "municipes/lexicum": "^1",
+        "municipes/fundamentum": "^1"
+    }
+}
